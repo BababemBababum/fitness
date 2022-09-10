@@ -1,0 +1,55 @@
+.notice {
+  background-color: black;
+  display: flex;
+  padding: 2rem;
+  justify-content: space-around;
+}
+
+.line {
+  width: 1px;
+  background-color: white;
+}
+
+.notice__about {
+  padding: 2rem;
+  width: 40%;
+}
+
+.notice__about h3 {
+  width: 80%;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.notice__about h4 {
+  margin-top: 2rem;
+  width: 80%;
+  color: var(--lightGray-color);
+}
+
+.notice__about button {
+  margin-top: 2rem;
+  background-color: var(--primary-color);
+  cursor: pointer;
+}
+
+.notice__about button:hover {
+  color: white;
+}
+
+.notice__working-hours {
+  width: 40%;
+  padding: 2rem;
+}
+
+.notice__working-hours h3 {
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.notice__working-hours ol {
+  list-style-type: none;
+  padding: 0;
+}

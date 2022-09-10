@@ -1,0 +1,40 @@
+nav {
+  padding: 1rem 2rem;
+  background-color: var(--darkGray-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 50px;
+  position: fixed;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(4px);
+  z-index: 2;
+  width: 100%;
+  top: 0;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+.navbar__links {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.navbar__links li {
+  margin: 1rem;
+}
+
+.navbar__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  font-size: 0.75rem;
+}
+
+.navbar__link:hover {
+  color: var(--primary-color)
+}
